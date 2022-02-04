@@ -1,0 +1,100 @@
+html {
+  background-color: khaki;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.country-side {
+  width: 100%;
+}
+
+.content {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.contentB {
+  justify-content: right;
+  text-align: right;
+  color: aliceblue;
+  margin: 1rem auto;
+  padding: 0px 1rem;
+}
+
+.B1 :hover {
+  background: rgb(252, 133, 133);
+}
+.B2 :hover {
+  background-color: rgb(252, 133, 133);
+}
+
+.B3 :hover {
+  background-color: rgb(252, 133, 133);
+}
+header {
+  background-color: crimson;
+}
+.center {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+.theName1 {
+  position: absolute;
+  top: 3rem;
+  left: 45%;
+}
+.theName2 {
+  position: absolute;
+  top: 4rem;
+  left: 45%;
+  border-bottom: 4px solid black;
+}
+.theName {
+  font-size: big;
+}
+.headerRight {
+  padding: 33px 20px;
+}
+.headerLeft {
+  padding: 20px 20px;
+}
+.nameJapan {
+  position: relative;
+}
+
+.title {
+  border-bottom: 2px solid gray;
+}
+
+.quiz1 {
+  padding: 4rem 4rem;
+}
+.orchestra {
+  color: blue;
+}
+.tennis {
+  color: rgb(95, 187, 3);
+}
+.soccer {
+  color: darkcyan;
+}
+.check {
+  border: 2px groove black;
+}
+.inputbox {
+  background-color: white;
+}
+
+.school_img {
+  width: 50%;
+  height: auto;
+}

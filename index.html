@@ -5,11 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>kohei-sanのホームページ</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <h1 class="name headerLeft">Kohei Miyoshi</h1>
+
+      <div class="headerRight">
+        <a class="contentB B1" href="#born">出身地　ｖ</a>
+
+        <a class="contentB B2" href="#high">出身校　ｖ</a>
+
+        <a class="contentB B3" href="#univ">大学　ｖ</a>
+      </div>
+    </header>
+
+    <div class="nameJapan">
+        <img src="IMG_7220.jpg" alt="" class="country-side" />
+        <p class="theName">
+          <h3 class="theName1">ミヨシコウヘイ</h3>
+          <h1 class="theName2">三好航平</h1>
+        </p> 
+    </div>
+    <div id="born" class="center">
+      <h2 class="title">出身地</h2>
+      <div>
+        香川県高松市
+      </div>
+      <a href="https://www.google.co.jp/maps/place/%E9%A6%99%E5%B7%9D%E7%9C%8C%E9%AB%98%E6%9D%BE%E5%B8%82/@34.2724699,133.9080549,11z/data=!3m1!4b1!4m5!3m4!1s0x3553c1c5548d47df:0x72f429d49c1ef71b!8m2!3d34.342542!4d134.0465405?hl=ja">
+        <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0GuCPoLcXGWe3xboAJp4505DC8t21C2q5Q&usqp=CAU"
+        class="map"
+        />
+      </a>
+      <div class="quiz1">
+        <div class="quiestion">Q.弟の名前を当てよう</div>
+        <input type="text" id="name-input" class="inputbox" />
+        <button id="check" class="check">チェック！！</button>
+        <div id="answer_container"></div>
+      </div>
+      
+    </div>
+
+
+    <div id="high" class="center">
+      <h2 class="title">出身校</h2>
+      <div class="school-link">
+          <a href="https://www.otemae.net/">大手前高松中学・高等学校</a>
+      </div>
+      <div id="quiz1" class="quiz1">
+        <div class="question">Q.中学高校時代にやっていた部活はなんでしょう？</div>
+        <button id="orchestra" class="orchestra ans">オーケストラ</button>
+        <button id="tennis" class="tennis ans">テニス</button>
+        <button id="soccer" class="soccer ans">サッカー</button>
+        <div id="ans">
+          <div id="ans_word"></div>
+          <img src="" alt="" id="photo"/>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="univ" class="center">
+      <h2 class="title">大学</h2>
+      <div> 
+        <a href="https://www.sophia.ac.jp/">上智大学</a>
+      </div>
+
+      <img src="IMG_7253.jpg" alt="" class="school_img">
+    </div>
+
+
     <script src="main.js"></script>
   </body>
 </html>
